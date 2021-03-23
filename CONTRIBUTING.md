@@ -26,11 +26,13 @@ cd datatriad-website
 git remote add upstream https://github.com/datatriadian/datatriad-website.git
 ```
 
-This creates the directory datatriad-website and connects your repository to the upstream (main project) repository.
+This creates the directory datatriad-website and connects your repository to the upstream
+(main project) repository.
 
 ### Working with the code
 
-Once you have cloned your fork of the repository install the dependencies (you will need to have [Node](https://nodejs.org/en/) installed for this)
+Once you have cloned your fork of the repository install the dependencies (you will need to have
+[Node](https://nodejs.org/en/) installed for this)
 
 ```sh
 npm install
@@ -57,6 +59,16 @@ git checkout main
 git pull upstream main --ff-only
 ```
 
+### Viewing Changes
+
+You can view changes you are making to the code by running:
+
+```sh
+npm run dev
+```
+
+Then the website will be viewable at `http://localhost:3000`
+
 ### Linting
 
 To check to make sure your updates follow the coding standards of this repository you can run linting with:
@@ -67,13 +79,23 @@ npm run lint
 
 ### Testing
 
-Please ensure that any additions/changes you make to the code have tests to go along with them. Before submitting a pull request please ensure that all tests arew passing. The test suite is run with:
+Please ensure that any additions/changes you make to the code have tests to go along with them.
+Before submitting a pull request please ensure that all tests arew passing. The test suite is run with:
 
 ```sh
 npm run test
 ```
 
-## Commiting your code
+### Checking the build
+
+In order for the site to be published static pages are generated for displaying the content. You can
+verify there are no issues with generating these static pages by running:
+
+```sh
+npm run generate
+```
+
+## Committing your code
 
 Once you have made changes to the code on your branch you can see which files have changed by running:
 
