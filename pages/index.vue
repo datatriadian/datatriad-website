@@ -24,13 +24,20 @@
         </a>
       </div>
     </div>
+    <Events />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import { Component, Vue } from 'nuxt-property-decorator';
+import Events from '@/components/Events.vue';
 
-export default Vue.extend({});
+@Component({
+  components: {
+    Events,
+  },
+})
+export default class Index extends Vue {}
 </script>
 
 <style>
