@@ -22,6 +22,7 @@
         >
           GitHub
         </a>
+        <NuxtLink to="/about">About page</NuxtLink>
       </div>
     </div>
     <Events />
