@@ -85,3 +85,7 @@ export default class Index extends Vue {}
   padding-top: 15px;
 }
 </style>
+
+<template>
+  <NuxtLink to="/">About Data Triad</NuxtLink>
+</template>
