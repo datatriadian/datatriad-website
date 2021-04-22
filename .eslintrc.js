@@ -21,5 +21,14 @@ module.exports = {
       named: 'never',
       asyncArrow: 'always',
     }],
+    'vue/html-self-closing': ['error', {
+      html: {
+        void: 'never',
+        normal: 'always',
+        component: 'always',
+      },
+      svg: 'always',
+      math: 'always',
+    }],
   },
 };
