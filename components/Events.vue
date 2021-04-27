@@ -51,6 +51,6 @@ export default class Events extends Vue {
 
 <style scoped>
 .eventList {
-  text-align: left;
+  text-align: center;
 }
 </style>
