@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{}],fetch:{"data-v-591a2938:0":{upcomingEvents:[],fetchOnServer:false}},mutations:void 0});
