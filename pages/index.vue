@@ -17,7 +17,7 @@
             class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"
           />
         </div>
-        <Events />
+        <DataTriadEvents />
       </div>
       <div
         class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6"
@@ -160,10 +160,10 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
-import Events from '@/components/Events.vue';
+import DataTriadEvents from '@/components/DataTriadEvents.vue';
 @Component({
   components: {
-    Events,
+    DataTriadEvents,
   },
 })
 export default class Index extends Vue {}

@@ -19,7 +19,7 @@
 import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component
-export default class Events extends Vue {
+export default class DataTriadEvents extends Vue {
   public upcomingEvents: any = [];
 
   async fetch(): Promise<void> {

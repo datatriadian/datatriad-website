@@ -3,11 +3,11 @@
  */
 
 import { mount } from '@vue/test-utils';
-import Logo from '@/components/Logo.vue';
+import DataTriadLogo from '@/components/DataTriadLogo.vue';
 
-describe('Logo', () => {
+describe('DataTriadLogo', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(Logo);
+    const wrapper = mount(DataTriadLogo);
     expect(wrapper.vm).toBeTruthy();
   });
 });
